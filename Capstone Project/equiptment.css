@@ -1,0 +1,10 @@
+.eq {
+    position: absolute;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 0%;
+}
+
+body{
+position: relative;
+}

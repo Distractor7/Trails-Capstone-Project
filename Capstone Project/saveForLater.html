@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styling.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Saved hikes</title>
+    </head>
+     
+  <body onload="addData()">
+ 
+    <div id="container">
+    <div class="Container1">
+      <li class="dropdown">
+            <ul class="dropdown-menu dropdown-menu--animated">
+            </li>
+            <a class="dropdown-items" href="equiptment.html">Equiptment</a> <a class="dropdown-items" href="gallery.html">Gallery</a>
+            <a class="dropdown-items" href="trails.html">Trails</a><a class="dropdown-items" href="signup.html">Sign Up</a><a class="dropdown-items" href="saveForLater.html">Save for Later</a><a class="dropdown-items" href="/index.html">Back to Home</a>
+          </li>
+          </ul>
+          Hiking</li>
+        </div>
+
+    <h1 id="header" class="saveHeading">Saved for later</h1>
+    
+    <table id="newTable" class="saved">
+      <tr>
+        <td class="saved">Trail</td>
+        <td class="saved">Province</td>
+        <td class="saved">Country</td>
+      </tr>
+    </table>
+
+
+    <button class="showHide">Show Comments</button>
+    <button class="showHide2">Hide Comments</button>
+
+    <div class="commentSection">
+    <div class="formContainer">
+    <p class="comment">Leave a comment:</p>
+    <form class="form">
+      <input id="comment"></input>
+    </form>
+    <button class="commentBtn">Comment</button>
+    </div>
+
+
+    <div id="comments" class="comments">
+    <p class="commentsHeader">Comments</p>
+    </div>
+  </div>
+</div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="saveForLater.js"></script>
+</html>
